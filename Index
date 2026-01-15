@@ -1,0 +1,10 @@
+civic-sphere/
+│
+├── README.md
+├── index.html
+├── style.css
+├── script.js
+├── assets/
+│   └── images/
+└── docs/
+    └── project-overview.md
