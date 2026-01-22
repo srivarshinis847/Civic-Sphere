@@ -6,7 +6,7 @@
 </head>
 <body>
     <h1>CivicSphere</h1>
-    <p>AI-powered Civic Issue Reporting Platform</p>
+    <p>Civic Issue Reporting Platform</p>
 
     <button>Report Issue</button>
     <button>AI Analysis</button>
@@ -29,6 +29,97 @@
             <option>ગુજરાતી (Gujarati)</option>
         </select>
     </div>
+
+< html>
+<html lang="english">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Issue Reporting</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+</head>
+</html>
+</html>   
+
+  <!-- User Info & Issue Reporting Form -->
+  <h2>Report an Issue</h2>
+  <form id="issueForm">
+    <label for="name">Full Name</label>
+    <input type="text" id="name" name="name" placeholder="Enter your full name" required>
+
+  <label for="contact">Contact Number</label>
+  <input type="tel" id="contact" name="contact" placeholder="Enter contact number" required>
+      
+<label for="address">Address</label>
+    <textarea id="address" name="address" placeholder="Enter your address" rows="2" required></textarea>
+
+      <label for="email">Email ID</label>
+<input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+
+  <label for="aadhaar">Aadhaar Number</label>
+    <input type="text" id="aadhaar" name="aadhaar" placeholder="Enter Aadhaar number" required>
+
+    
+ <label for="issue">Describe the Issue</label>
+    <textarea id="issue" name="issue" placeholder="Describe the civic issue" rows="3" required></textarea>
+
+    <label>Upload Image of Issue</label>
+    <div class="upload-container">
+      <label for="fileUpload" class="icon-label"><i class="fa-solid fa-camera"></i></label>
+      <input type="file" id="fileUpload" accept="image/*">
+      <span id="fileName">No file chosen</span>
+    </div>
+
+    <button type="submit">Submit Issue</button>
+  </form>
+
+  <!-- Features Sections -->
+  <div class="feature-section" id="issue-tracking">
+    <h3>Issue Tracking & Status Updates</h3>
+    <p>Users can track the status of reported issues: Submitted → In Progress → Resolved.</p>
+  </div>
+
+  <div class="feature-section" id="location-visualization">
+    <h3>Location-based Visualization</h3>
+    <div class="map-placeholder">Map will appear here</div>
+  </div>
+
+  <div class="feature-section" id="community-voting">
+    <h3>Community Voting</h3>
+    <p>Users can upvote issues to indicate importance or urgency.</p>
+  </div>
+
+  <div class="feature-section" id="ai-suggestions">
+    <h3>AI Suggestions for Resolution</h3>
+    <p>AI can suggest solutions or departments to address the issue.</p>
+  </div>
+
+  <div class="feature-section" id="predictive-analysis">
+    <h3>Predictive Analysis</h3>
+    <p>AI/ML can predict problem-prone areas based on historical data.</p>
+  </div>
+
+  <div class="feature-section" id="feedback-rating">
+    <h3>Feedback & Rating System</h3>
+    <p>Users can rate resolution effectiveness and provide feedback.</p>
+  </div>
+
+  <div class="feature-section" id="analytics-dashboard">
+    <h3>Reporting & Analytics Dashboard</h3>
+    <p>Admin dashboard with charts, graphs, and trends for all reported issues.</p>
+  </div>
+
+  <div class="feature-section" id="multi-mode-reporting">
+    <h3>Multi-mode Reporting</h3>
+    <p>Users can report issues via text, images, or voice input.</p>
+  </div>
+
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
 
 
 
