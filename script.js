@@ -13,3 +13,6 @@ button {
     border-radius: 5px;
 }
 
+console.log("CivicSphere loaded successfully");
+
+
