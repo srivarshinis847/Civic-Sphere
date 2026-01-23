@@ -1,5 +1,4 @@
 console.log("CivicSphere loaded successfully");
-
 // Display selected file name
 const fileInput = document.getElementById('fileUpload');
 const fileName = document.getElementById('fileName');
@@ -17,4 +16,5 @@ document.getElementById('issueForm').addEventListener('submit', (e) => {
   e.preventDefault();
   alert('Issue submitted successfully! (This is a placeholder alert)');
 });
+
 
